@@ -20,7 +20,7 @@ install.packages(
 ga_auth()  # authorize the current R session
 ga_auth(new_user = TRUE)  # force new aurization
 sources_raw = google_analytics(
-  viewId = 1234567,     # replace this with your view ID
+  viewId = 1234567,     # view ID changed
   date_range = c(
     today() - 30, 	# start date
     today()		# end date
