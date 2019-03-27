@@ -17,7 +17,7 @@ gadata <- google_analytics(viewId = 1234567,     # view ID changed
                             ), 
                            metrics = c("sessions"),
                            dimensions = c("date"),
-                           max = 6000)
+                           max = 5000)
 
 # line chart
 ggplot(gadata,aes(x=date,y=sessions,group=1)) +
