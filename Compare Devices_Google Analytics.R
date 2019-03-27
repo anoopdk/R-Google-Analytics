@@ -18,7 +18,7 @@ gadata <- google_analytics(viewId = 1234567,     # view ID changed
                            ), 
                            metrics = c("sessions", "avgSessionDuration"),
                            dimensions = c("date", "deviceCategory"),
-                           max = 6000)
+                           max = 5000)
 #plot sessions with deviceCategory
 ggplot(gadata, aes(deviceCategory, sessions)) +   
   geom_bar(aes(fill = deviceCategory), stat="identity")
