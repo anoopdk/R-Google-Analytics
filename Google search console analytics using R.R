@@ -33,7 +33,7 @@ searchquery <- search_analytics(siteURL = website,
                                 endDate = end, 
                                 dimensions = download_data,
                                 searchType = type, 
-                                rowLimit = 6000)
+                                rowLimit = 5000)
 
 
 
